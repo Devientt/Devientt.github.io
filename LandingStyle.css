@@ -168,10 +168,12 @@ img {
 }
 
 .icon-roblox {
-    width: 20px; /* Taille de l'icône (ajustez selon vos besoins) */
-    height: 20px;
-    opacity: 0.8; /* Transparence pour un effet léger */
-    filter: invert(100%); /* Inversion pour afficher en blanc */
-    margin-left: 10px;
+    max-width: 24px !important;
+    max-height: 24px !important;
+    width: 24px !important;
+    height: 24px !important;
+    opacity: 0.8;
+    filter: invert(100%);
     vertical-align: middle;
+    margin: 0 10px;
 }
