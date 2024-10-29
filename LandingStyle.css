@@ -168,9 +168,9 @@ img {
 }
 
 .icon-roblox {
-    width: 20px; /* Taille de l'icône */
+    width: 20px; /* Taille de l'icône (ajustez selon vos besoins) */
     height: 20px;
-    opacity: 0.8; /* Transparence pour l'effet légèrement transparent */
+    opacity: 0.8; /* Transparence pour un effet léger */
     filter: invert(100%); /* Inversion pour afficher en blanc */
     margin-left: 10px;
     vertical-align: middle;
