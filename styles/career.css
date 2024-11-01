@@ -17,6 +17,13 @@
   text-align: center;
 }
 
+.button_container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Espace entre les deux boutons */
+}
+
+
 @media (min-width: 600px) {
   .button_career_container {
       flex-direction: row;
