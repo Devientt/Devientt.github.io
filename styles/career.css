@@ -81,14 +81,24 @@
   text-shadow: 1px 1px 2px #427388;
 }
 
-.hr-career {
-    width: 50% !important; /* Réduit la ligne à 50% de sa largeur et force l'application */
+..hr-full {
+    width: 100%; /* Première barre en pleine largeur */
     color: white;
     display: block;
     margin: 1.5rem auto;
     border-style: inset;
     border-width: 1px;
 }
+
+.hr-career {
+    width: 50% !important; /* Réduit la deuxième ligne à 50% */
+    color: white;
+    display: block;
+    margin: 1.5rem auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
 
 
 /* Styles pour la catégorie Weapons avec image d'arrière-plan */
