@@ -82,7 +82,7 @@
 }
 
 .hr-career {
-    width: 50%; /* Réduit la ligne à 50% */
+    width: 50% !important; /* Réduit la ligne à 50% de sa largeur et force l'application */
     color: white;
     display: block;
     margin: 1.5rem auto;
