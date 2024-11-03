@@ -3,22 +3,27 @@
 <head>
     <!-- Metadata -->
     <meta charset="utf-8">
+    
+    <!-- Mobile Specific Metas -->
     <meta name="keywords" content="programmer, coding, console, cv, java, haskell, OpenGL, c, c++, games developer, software developer, english, roblox developer, French" />
     <meta name="description" content="Games and software developer interested in c++ engine development." />
+
     <title>Devient</title>
 
+    <!-- External file links for this html page  -->
+    
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="styles/skeleton.css">
     <link rel="stylesheet" type="text/css" href="styles/landing.css">
     <link rel="stylesheet" type="text/css" href="styles/career.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Project related css files -->
-    <link rel="stylesheet" type="text/css" href="./styles/project_styles/mirage.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/project_styles/exalted.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/project_styles/15_puzzle.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/project_styles/game_tech.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/project_styles/vpa.css" />
+    <!-- Project related css files --> 
+    <link rel="stylesheet" type="text/css" href="./styles/project_styles/mirage.css"/>
+    <link rel="stylesheet" type="text/css" href="./styles/project_styles/exalted.css"/>
+    <link rel="stylesheet" type="text/css" href="./styles/project_styles/15_puzzle.css"/>
+    <link rel="stylesheet" type="text/css" href="./styles/project_styles/game_tech.css"/>
+    <link rel="stylesheet" type="text/css" href="./styles/project_styles/vpa.css"/>
 
     <!-- Icon -->
     <link rel="icon" type="image/png" href="./data/images/icon_trans.png">
@@ -27,44 +32,44 @@
     <script src="scripts/quick_links.js"></script>
 </head>
 
-<body id="top">
-    <div class="container" style="margin-top: 1%" align="center">
-        <div id="title">Devient</div>
+<body id="top">  
+    <div class="container" style="margin-top: 1%" align="center">   
+        <div id="title">Devient</div>            
         <img class="landing_logo" src="./data/images/portrait.png" alt="Portrait">
-
+        
         <div id="quick_links">
             <a href="https://github.com/Devientt" target="_blank"><i class="fa fa-github"></i></a>
             <!-- Roblox Icon -->
             <a href="https://www.roblox.com/users/2207191497/profile" target="_blank" style="color: inherit; text-decoration: none; vertical-align: middle; margin-bottom: -2px;">
                 <img src="Data/images/roblox_logo.png" alt="Roblox" width="37" height="39">
-            </a>
+            </a>                           
             <a href="https://www.youtube.com/channel/UCxb2vCV-1go3d0T8kUQSXbA" target="_blank"><i class="fa fa-youtube"></i></a>
         </div>
-
-        <hr class="hr-full">
+        
+        <hr>
         <div id="about_me">Hi there and thanks for stopping by! My name is Devient, i'm a passionate programmer who feels enjoyment and fulfillment from the journey of creating experiences.</div>
-        <hr class="hr-career">
+        <hr>
 
         <section class="buttons">
             <div class="button_container">
-                <div id="education-Button" class="btn btn-5 kd-button" onClick="LoadCareer(this, 0)">Past Works</div>
-                <div id="work-Button" class="btn btn-5 kd-button" onClick="LoadCareer(this, 1)">Skills</div>
+                <div id="projects-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Projects</div> 
+                <div id="career-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Past Works</div>
+                <div id="skills-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Skills</div> 
+                <div id="research-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Research</div> 
             </div>
         </section>
     </div>
 
-    <div id="bottom">
-        <div id="data_selection_area" class="container kd-selection-content" style="opacity: 0;"></div>
-        <div id="project_data_area" class="container kd-selection-content" style="opacity: 0;"></div>
-        <div id="subcategories" class="button_container" style="display: none; margin-top: 1rem;">
-            <div id="weapons-Button" class="btn btn-career-5" onClick="LoadSubCategory('weapons')">Weapons</div>
-            <div id="physics-Button" class="btn btn-career-5" onClick="LoadSubCategory('physics')">Physics</div>
-        </div>
-    </div>
+    <!-- Scripts used in top body -->
+    <script src="scripts/text_animation.js"></script>
+</body>
 
-    <!-- Include all your JavaScript files here -->
+<div id="bottom">
+    <!-- Data_Labels -->
+    <div id="data_selection_area" class="container kd-selection-content" style="opacity: 0;"></div>
+    <div id="project_data_area" class="container kd-selection-content" style="opacity: 0;"></div>
     <script src="scripts/button_nav_selection.js"></script>
     <script src="scripts/button_nav_proj.js"></script>
     <script src="scripts/button_nav_career.js"></script>
-</body>
+</div>
 </html>

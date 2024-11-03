@@ -1,6 +1,7 @@
 /*
     This script handles the navigation selection between the main content buttons.
 */
+
 const ContentNames = 
 [
     "projects",
@@ -8,9 +9,11 @@ const ContentNames =
     "skills",
     "research"
 ];
+
 const TextAreaMinHeightExtended = "200px";
 const TextAreaMinHeightClosed = "0px";
 const TransitionDuration = 0;
+
 let IncludeText = [];
 let lastButtonIndex = -1;
 let buttonLock = false;
@@ -25,6 +28,7 @@ for(let i = 0; i < ContentNames.length; ++i)
 }
 
 /* Display the included text for the correct content. */
+
 function revealIncludeText(textArea, i) 
 {
     if (textArea.style.opacity == 0) /* Case: Not currently displaying anything in this text area */
@@ -32,16 +36,17 @@ function revealIncludeText(textArea, i)
         document.body.style.height = "200vh";
         textArea.innerHTML = IncludeText[i];
         textArea.style.opacity = 1;
-    }
+	}
     else  /* Case where area is already displayed some data */
     {
         textArea.style.opacity = 0; 
         setTimeout(function()
         {
-            textArea.innerHTML = IncludeText[i];
-            textArea.style.opacity = 1;
-        }, TransitionDuration / 2);
+			textArea.innerHTML = IncludeText[i];
+			textArea.style.opacity = 1;
+		}, TransitionDuration / 2);
     }
+    
 }
 
 /* Called when the DOM content is loaded. */
@@ -50,13 +55,9 @@ document.addEventListener('DOMContentLoaded', function()
     let textArea = document.getElementById("data_selection_area");
     let buttons = [];
     
-    // Add "Past Works" and "Skills" buttons to ContentNames
-    ContentNames.push("past-works");
-    ContentNames.push("skills");
-    
     for (let i = 0; i < ContentNames.length; ++i) 
     {
-        buttons.push(document.getElementById(ContentNames[i] + "-Button")); /* Add all relevant buttons to array. */
+		buttons.push(document.getElementById(ContentNames[i] + "-Button")); /* Add all relevant buttons to array. */
     }
     
     /* Add event listener to buttons for click events */
@@ -68,42 +69,42 @@ document.addEventListener('DOMContentLoaded', function()
             {
                 if (lastButtonIndex >= 0) 
                 {
-                    buttons[lastButtonIndex].className = "kd-button"; // Corrected className property
-                }
+					buttons[lastButtonIndex].class = "kd-button";
+				}
                 if (i != lastButtonIndex) 
                 {
-                    buttons[i].className = "kd-button"; // Corrected className property
+					buttons[i].class = "kd-button";
                     for (let j = 0; j < buttons.length; ++j) 
                     {
-                        buttons[j].className = j != i ? "kd-button-idle" : buttons[j].className; // Corrected className property
-                    }
-                    revealIncludeText(textArea, i);
-                    lastButtonIndex = i;
+						buttons[j].class = j != i ? "kd-button-idle" : buttons[j].class;
+					}
+					revealIncludeText(textArea, i);
+					lastButtonIndex = i;
                     if (textArea.style.minHeight == TextAreaMinHeightClosed || textArea.style.minHeight == "") 
                     {
-                        textArea.style.minHeight = TextAreaMinHeightExtended;
-                    }
-                }
+						textArea.style.minHeight = TextAreaMinHeightExtended;
+					}
+				}
                 else 
                 {
                     for (let j = 0; j < buttons.length; ++j) 
                     {
-                        buttons[j].className = "kd-button"; // Corrected className property
-                    }
-                    textArea.innerHTML = "";
-                    lastButtonIndex = -1;
+						buttons[j].class = "kd-button";
+					}
+					textArea.innerHTML = "";
+					lastButtonIndex = -1;
                     setTimeout(function() 
                     {
                         textArea.style.minHeight = TextAreaMinHeightClosed;
                         textArea.style.opacity = 0;
-                    }, TransitionDuration / 2);
-                }
-                buttonLock = true;
+					}, TransitionDuration / 2);
+				}
+				buttonLock = true;
                 setTimeout(function() 
                 {
-                    buttonLock = false;
-                }, TransitionDuration);
-            }
-        });
-    }
+					buttonLock = false;
+				}, TransitionDuration);
+			}
+		});
+	}
 });
