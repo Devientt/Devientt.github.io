@@ -3,14 +3,14 @@
     "",
     "\\Data",
     "\\Data\\Blog",
-    "\\Data\\Career",
-    "\\Data\\Career\\project_banners",
+    "\\Data\\images",
     "\\Data\\pages",
-    "\\Data\\pages\\careers",
     "\\Data\\pages\\projects",
+    "\\Data\\projects",
+    "\\Data\\Skills",
     "\\javascript",
     "\\scripts"
   ],
-  "SelectedNode": "\\Data\\pages\\career.html",
+  "SelectedNode": "\\scripts\\button_nav_career.js",
   "PreviewInSolutionExplorer": false
 }

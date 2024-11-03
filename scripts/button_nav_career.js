@@ -5,11 +5,13 @@
 const CareerNames = [
     "education",
     "work",
-    "weapons" // Ajout de la nouvelle catégorie
+    "weapons",
+    "physics" // Ajout de la nouvelle sous-catégorie
 ];
 
 let CareerText = [];
 let careerTextArea = document.getElementById("project_data_area");
+let subcategoryContainer = document.getElementById("subcategories");
 
 /* Adds the included text data into the array of text. */
 for (let i = 0; i < CareerNames.length; ++i) {
@@ -26,10 +28,10 @@ function LoadCareer(button, btnIndex) {
     if (button.getAttribute("class") == "btn-career-5-active") {
         // Désactiver l'onglet actif s'il est re-sélectionné
         let activeButton = document.getElementsByClassName("btn-career-5-active");
-
         activeButton[0].className = "btn-career-5";
         careerTextArea.innerHTML = "";
         careerTextArea.style.opacity = 0;
+        subcategoryContainer.style.display = "none"; // Masquer les sous-catégories
     } else {
         // Désactiver l'onglet précédemment actif
         let activeButton = document.getElementsByClassName("btn-career-5-active");
@@ -39,25 +41,38 @@ function LoadCareer(button, btnIndex) {
             careerTextArea.style.opacity = 0;
         }
 
-        // Charger le contenu en fonction de l'index
         if (btnIndex === 0) { // Pour "Past Works"
-            careerTextArea.innerHTML = CareerText[0];
+            subcategoryContainer.style.display = "flex"; // Afficher les sous-catégories
+            careerTextArea.innerHTML = ""; // Vider l'affichage principal
         } else if (btnIndex === 1) { // Pour "Skills"
             careerTextArea.innerHTML = CareerText[1];
-        } else if (btnIndex === 2) { // Pour "Weapons"
-            careerTextArea.classList.add("weapons-background");
-            careerTextArea.innerHTML = `
-                <h2>Weapons</h2>
-                <p>This section contains information about weapons.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/aLND1_Rx4BQ" 
-                        title="YouTube video player" frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen></iframe>
-            `;
+            subcategoryContainer.style.display = "none"; // Masquer les sous-catégories
         }
 
         // Appliquer les styles actifs et afficher le contenu
         careerTextArea.style.opacity = 1;
         document.getElementById(button.getAttribute("id")).className = "btn-career-5-active";
     }
+}
+
+function LoadSubCategory(subCategory) {
+    careerTextArea.classList.remove("weapons-background");
+    if (subCategory === "weapons") {
+        careerTextArea.classList.add("weapons-background");
+        careerTextArea.innerHTML = `
+            <h2>Weapons</h2>
+            <p>This section contains information about weapons.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aLND1_Rx4BQ" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+        `;
+    } else if (subCategory === "physics") {
+        careerTextArea.innerHTML = `
+            <h2>Physics</h2>
+            <p>This section contains information about physics-related projects.</p>
+            <!-- Ajoute ici le contenu que tu veux pour la catégorie "Physics" -->
+        `;
+    }
+    careerTextArea.style.opacity = 1;
 }
