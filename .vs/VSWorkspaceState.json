@@ -2,17 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Data",
-    "\\Data\\game_data",
-    "\\Data\\game_data\\Mirage",
-    "\\Data\\game_data\\Mirage\\mirage",
-    "\\Data\\images",
-    "\\Data\\Skills",
-    "\\Data\\Skills\\project_banners",
-    "\\scripts",
-    "\\styles",
-    "\\styles\\fonts",
-    "\\styles\\project_styles"
+    "\\Data\\Blog",
+    "\\Data\\Career",
+    "\\Data\\Career\\project_banners",
+    "\\Data\\pages",
+    "\\Data\\pages\\careers",
+    "\\Data\\pages\\projects",
+    "\\javascript",
+    "\\scripts"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Data\\pages\\career.html",
   "PreviewInSolutionExplorer": false
 }

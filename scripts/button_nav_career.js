@@ -39,8 +39,12 @@ function LoadCareer(button, btnIndex) {
             careerTextArea.style.opacity = 0;
         }
 
-        // Charger le contenu et appliquer les styles en fonction de l'index
-        if (btnIndex === 2) { // Si la catégorie est "Weapons"
+        // Charger le contenu en fonction de l'index
+        if (btnIndex === 0) { // Pour "Past Works"
+            careerTextArea.innerHTML = CareerText[0];
+        } else if (btnIndex === 1) { // Pour "Skills"
+            careerTextArea.innerHTML = CareerText[1];
+        } else if (btnIndex === 2) { // Pour "Weapons"
             careerTextArea.classList.add("weapons-background");
             careerTextArea.innerHTML = `
                 <h2>Weapons</h2>
@@ -50,8 +54,6 @@ function LoadCareer(button, btnIndex) {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen></iframe>
             `;
-        } else {
-            careerTextArea.innerHTML = CareerText[btnIndex];
         }
 
         // Appliquer les styles actifs et afficher le contenu
