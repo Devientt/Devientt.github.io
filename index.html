@@ -3,14 +3,10 @@
 <head>
     <!-- Metadata -->
     <meta charset="utf-8">
-
-    <!-- Mobile Specific Metas -->
     <meta name="keywords" content="programmer, coding, console, cv, java, haskell, OpenGL, c, c++, games developer, software developer, english, roblox developer, French" />
     <meta name="description" content="Games and software developer interested in c++ engine development." />
-
     <title>Devient</title>
 
-    <!-- External file links for this html page  -->
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="styles/skeleton.css">
     <link rel="stylesheet" type="text/css" href="styles/landing.css">
@@ -45,12 +41,8 @@
             <a href="https://www.youtube.com/channel/UCxb2vCV-1go3d0T8kUQSXbA" target="_blank"><i class="fa fa-youtube"></i></a>
         </div>
 
-        <!-- Première ligne horizontale pleine largeur -->
         <hr class="hr-full">
-
         <div id="about_me">Hi there and thanks for stopping by! My name is Devient, i'm a passionate programmer who feels enjoyment and fulfillment from the journey of creating experiences.</div>
-
-        <!-- Deuxième ligne horizontale réduite avec classe hr-career -->
         <hr class="hr-career">
 
         <section class="buttons">
@@ -59,23 +51,20 @@
                 <div id="work-Button" class="btn btn-5 kd-button" onClick="LoadCareer(this, 1)">Skills</div>
             </div>
         </section>
-        
     </div>
 
-    <!-- Scripts used in top body -->
-    <script src="scripts/text_animation.js"></script>
-</body>
-
-<div id="bottom">
-    <!-- Data_Labels -->
-    <div id="data_selection_area" class="container kd-selection-content" style="opacity: 0;"></div>
-    <div id="project_data_area" class="container kd-selection-content" style="opacity: 0;"></div>
-    <div id="subcategories" class="button_container" style="display: none; margin-top: 1rem;">
-        <div id="weapons-Button" class="btn btn-career-5" onClick="LoadSubCategory('weapons')">Weapons</div>
-        <div id="physics-Button" class="btn btn-career-5" onClick="LoadSubCategory('physics')">Physics</div>
+    <div id="bottom">
+        <div id="data_selection_area" class="container kd-selection-content" style="opacity: 0;"></div>
+        <div id="project_data_area" class="container kd-selection-content" style="opacity: 0;"></div>
+        <div id="subcategories" class="button_container" style="display: none; margin-top: 1rem;">
+            <div id="weapons-Button" class="btn btn-career-5" onClick="LoadSubCategory('weapons')">Weapons</div>
+            <div id="physics-Button" class="btn btn-career-5" onClick="LoadSubCategory('physics')">Physics</div>
+        </div>
     </div>
+
+    <!-- Include all your JavaScript files here -->
     <script src="scripts/button_nav_selection.js"></script>
     <script src="scripts/button_nav_proj.js"></script>
     <script src="scripts/button_nav_career.js"></script>
-</div>
+</body>
 </html>
