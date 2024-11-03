@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_career.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\button_nav_career.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\styles\\career.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles\\career.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_career.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\button_nav_career.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_proj.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\button_nav_proj.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\Data\\pages\\career.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\pages\\career.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\javascript\\bg_fade.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_selection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\button_nav_selection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_proj.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\button_nav_proj.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\styles\\skeleton.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -210,7 +210,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -218,20 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "bg_fade.js",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\javascript\\bg_fade.js",
-              "RelativeDocumentMoniker": "javascript\\bg_fade.js",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\javascript\\bg_fade.js",
-              "RelativeToolTip": "javascript\\bg_fade.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-01T15:35:10.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "quick_links.js",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\javascript\\quick_links.js",
               "RelativeDocumentMoniker": "javascript\\quick_links.js",
@@ -243,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "skills_bg_fade.js",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\javascript\\skills_bg_fade.js",
               "RelativeDocumentMoniker": "javascript\\skills_bg_fade.js",
@@ -255,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "type.js",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\javascript\\type.js",
               "RelativeDocumentMoniker": "javascript\\type.js",
@@ -267,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\Data\\Skills\\index.html",
               "RelativeDocumentMoniker": "Data\\Skills\\index.html",
@@ -279,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "skills.html",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\Data\\pages\\skills.html",
               "RelativeDocumentMoniker": "Data\\pages\\skills.html",
@@ -291,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "research.html",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\Data\\pages\\research.html",
               "RelativeDocumentMoniker": "Data\\pages\\research.html",
@@ -303,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "projects.html",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\Data\\pages\\projects.html",
               "RelativeDocumentMoniker": "Data\\pages\\projects.html",
@@ -328,20 +315,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "button_nav_career.js",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_career.js",
               "RelativeDocumentMoniker": "scripts\\button_nav_career.js",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_career.js",
               "RelativeToolTip": "scripts\\button_nav_career.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-01T15:07:55.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "work.html",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\Data\\pages\\careers\\work.html",
               "RelativeDocumentMoniker": "Data\\pages\\careers\\work.html",
@@ -353,33 +340,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAwD8AAAAAAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwFEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-11-01T15:35:58.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "career.css",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\styles\\career.css",
               "RelativeDocumentMoniker": "styles\\career.css",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\styles\\career.css",
               "RelativeToolTip": "styles\\career.css",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAAwJ8AAAAAAAAA",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAAAJ8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-01T15:35:34.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "button_nav_proj.js",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_proj.js",
+              "RelativeDocumentMoniker": "scripts\\button_nav_proj.js",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_proj.js",
+              "RelativeToolTip": "scripts\\button_nav_proj.js",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwDcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-01T15:35:25.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bg_fade.js",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\javascript\\bg_fade.js",
+              "RelativeDocumentMoniker": "javascript\\bg_fade.js",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\javascript\\bg_fade.js",
+              "RelativeToolTip": "javascript\\bg_fade.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-01T15:35:10.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "bg_dots.js",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\javascript\\bg_dots.js",
               "RelativeDocumentMoniker": "javascript\\bg_dots.js",
@@ -391,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "text_animation.js",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\text_animation.js",
               "RelativeDocumentMoniker": "scripts\\text_animation.js",
@@ -403,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "quick_links.js",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\quick_links.js",
               "RelativeDocumentMoniker": "scripts\\quick_links.js",
@@ -415,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "button_nav_selection.js",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_selection.js",
               "RelativeDocumentMoniker": "scripts\\button_nav_selection.js",
@@ -424,18 +436,6 @@
               "ViewState": "AQIAAEAAAAAAAAAAAAAAAGwAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-01T15:35:25.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "button_nav_proj.js",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_proj.js",
-              "RelativeDocumentMoniker": "scripts\\button_nav_proj.js",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Devientt.github.io\\scripts\\button_nav_proj.js",
-              "RelativeToolTip": "scripts\\button_nav_proj.js",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-01T15:35:25.026Z"
             },
             {
               "$type": "Document",

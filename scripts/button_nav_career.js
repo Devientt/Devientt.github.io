@@ -2,58 +2,42 @@
     This script handles the content assignment of career data
 */
 
-const CareerNames = [
-    "education",
-    "work",
-    "weapons",
-    "physics" // Ajout de la nouvelle sous-catégorie
-];
+function LoadSubCategory(category) {
+    const projectArea = document.getElementById('project_data_area');
 
-let CareerText = [];
-let careerTextArea = document.getElementById("project_data_area");
-let subcategoryContainer = document.getElementById("subcategories");
+    // Applique une classe de fond spécifique pour chaque catégorie
+    projectArea.className = 'container kd-selection-content';
+    if (category === 'weapons') {
+        projectArea.classList.add('weapons-background');
+        projectArea.innerHTML = `<h2>Weapons</h2><p>Contenu spécifique pour les armes.</p>`;
+    } else if (category === 'physics') {
+        projectArea.classList.add('physics-background');
+        projectArea.innerHTML = `<h2>Physics</h2><p>Contenu spécifique pour la physique.</p>`;
+    }
 
-/* Adds the included text data into the array of text. */
-for (let i = 0; i < CareerNames.length; ++i) {
-    CareerText.push("");
-    fetch("./Data/pages/careers/" + CareerNames[i] + ".html")
-        .then(r => r.text())
-        .then(t => CareerText[i] = t);
+    // Affiche la zone de données du projet
+    projectArea.style.opacity = 1;
 }
 
-function LoadCareer(button, btnIndex) {
-    // Supprimer les classes d'arrière-plan spécifiques existantes
-    careerTextArea.classList.remove("weapons-background");
 
-    if (button.getAttribute("class") == "btn-career-5-active") {
-        // Désactiver l'onglet actif s'il est re-sélectionné
-        let activeButton = document.getElementsByClassName("btn-career-5-active");
-        activeButton[0].className = "btn-career-5";
-        careerTextArea.innerHTML = "";
-        careerTextArea.style.opacity = 0;
-        subcategoryContainer.style.display = "none"; // Masquer les sous-catégories
+function LoadCareer(button, index) {
+    // Définir l'état des boutons pour Past Works et Skills
+    document.getElementById('education-Button').classList.toggle('btn-career-5-active', index === 0);
+    document.getElementById('work-Button').classList.toggle('btn-career-5-active', index === 1);
+
+    // Si "Past Works" est sélectionné, afficher les sous-catégories
+    if (index === 0) {
+        document.getElementById('subcategories').style.display = 'flex';
+        document.getElementById('data_selection_area').style.opacity = 0;
+        document.getElementById('project_data_area').style.opacity = 0;
     } else {
-        // Désactiver l'onglet précédemment actif
-        let activeButton = document.getElementsByClassName("btn-career-5-active");
-        if (activeButton.length !== 0) {
-            activeButton[0].className = "btn-career-5";
-            careerTextArea.innerHTML = "";
-            careerTextArea.style.opacity = 0;
-        }
-
-        if (btnIndex === 0) { // Pour "Past Works"
-            subcategoryContainer.style.display = "flex"; // Afficher les sous-catégories
-            careerTextArea.innerHTML = ""; // Vider l'affichage principal
-        } else if (btnIndex === 1) { // Pour "Skills"
-            careerTextArea.innerHTML = CareerText[1];
-            subcategoryContainer.style.display = "none"; // Masquer les sous-catégories
-        }
-
-        // Appliquer les styles actifs et afficher le contenu
-        careerTextArea.style.opacity = 1;
-        document.getElementById(button.getAttribute("id")).className = "btn-career-5-active";
+        // Masquer les sous-catégories si "Skills" est sélectionné
+        document.getElementById('subcategories').style.display = 'none';
+        document.getElementById('data_selection_area').style.opacity = 1;
+        document.getElementById('project_data_area').style.opacity = 1;
     }
 }
+
 
 function LoadSubCategory(subCategory) {
     careerTextArea.classList.remove("weapons-background");
