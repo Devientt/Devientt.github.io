@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Data",
+    "\\Data\\game_data",
+    "\\Data\\game_data\\Mirage",
+    "\\Data\\game_data\\Mirage\\mirage",
+    "\\Data\\images",
+    "\\Data\\Skills",
+    "\\Data\\Skills\\project_banners",
+    "\\scripts",
+    "\\styles",
+    "\\styles\\fonts",
+    "\\styles\\project_styles"
+  ],
+  "SelectedNode": "\\LandingStyle.css",
+  "PreviewInSolutionExplorer": false
+}
