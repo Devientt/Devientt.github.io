@@ -7,8 +7,9 @@ const ContentNames =
     "projects",
     "career",
     "skills",
-];
-
+    "research"
+ ];
+ 
 const TextAreaMinHeightExtended = "200px";
 const TextAreaMinHeightClosed = "0px";
 const TransitionDuration = 0;
