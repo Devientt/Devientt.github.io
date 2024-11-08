@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Data",
+    "\\Data\\Blog",
+    "\\Data\\Career",
     "\\Data\\pages",
-    "\\Data\\pages\\careers",
     "\\Data\\pages\\projects",
-    "\\Data\\projects",
     "\\scripts",
     "\\styles",
     "\\styles\\fonts",
     "\\styles\\project_styles"
   ],
-  "SelectedNode": "\\scripts\\button_nav_career.js",
+  "SelectedNode": "\\scripts\\button_nav_selection.js",
   "PreviewInSolutionExplorer": false
 }
